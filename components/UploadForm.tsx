@@ -68,7 +68,7 @@ const UploadForm = () => {
           ) : (
             <CldUploadButton
               uploadPreset="qm3ijpzr"
-              onUpload={(result) => {
+              onUpload={(result: any) => {
                 setFiles(result?.info?.url);
               }}
             />
